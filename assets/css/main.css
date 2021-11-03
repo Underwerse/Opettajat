@@ -1,0 +1,213 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+a {
+  color: #7c9ab7;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+h2, h3 {
+  text-align: center;
+  font-weight: 700;
+}
+
+h4 {
+  height: 50px;
+  font-weight: 700;
+}
+
+form {
+  -webkit-box-shadow: 0px 0px 0px 2px #fff, 0px 0px 0px 1px #606054, 0px -1px 9px 1px rgba(119, 119, 119, 0.4);
+          box-shadow: 0px 0px 0px 2px #fff, 0px 0px 0px 1px #606054, 0px -1px 9px 1px rgba(119, 119, 119, 0.4);
+  margin: 20px 0;
+  padding: 10px;
+}
+
+form input {
+  width: 100%;
+  margin: 10px 0;
+  border: unset;
+  border-bottom: 2px solid #e3e3e3;
+  outline: none;
+}
+
+form button {
+  width: 100%;
+  padding: 10px;
+  margin: 10px 0;
+  font-size: 16px;
+  background: #e3e3e3;
+  border: unset;
+  cursor: pointer;
+}
+
+.btn_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.btn_wrap .half_width {
+  width: calc(50% - 10px);
+}
+
+.content_wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.user_header {
+  background-color: #ebebeb;
+  margin-top: 10px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.user_header img {
+  width: 100px;
+}
+
+.user_header__wrap {
+  margin-left: 10px;
+}
+
+.user_header__wrap p {
+  color: #7c9ab7;
+}
+
+.sign {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.sign form {
+  width: 350px;
+}
+
+.register {
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.register form {
+  width: 350px;
+}
+
+.admin_check, .admin_data_add {
+  -webkit-box-shadow: 0px 0px 0px 2px #fff, 0px 0px 0px 1px #606054, 0px -1px 9px 1px rgba(119, 119, 119, 0.4);
+          box-shadow: 0px 0px 0px 2px #fff, 0px 0px 0px 1px #606054, 0px -1px 9px 1px rgba(119, 119, 119, 0.4);
+  margin: 20px 0;
+}
+
+.msg {
+  border: 2px solid #ffa908;
+  border-radius: 3px;
+  padding: 10px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.logout {
+  color: #b7625c;
+}
+
+.hidden {
+  display: none;
+}
+
+textarea {
+  width: 100%;
+}
+
+.table_check_data, .table_added_data {
+  width: 100%;
+}
+
+.table_check_data tbody tr, .table_added_data tbody tr {
+  width: 100%;
+}
+
+.table_check_data tbody tr td, .table_added_data tbody tr td {
+  width: 16%;
+}
+
+.table_statistics {
+  padding: 10px;
+}
+
+.table_check_data_wrap {
+  -webkit-box-shadow: 0px 0px 0px 2px #fff, 0px 0px 0px 1px #606054, 0px -1px 9px 1px rgba(119, 119, 119, 0.4);
+          box-shadow: 0px 0px 0px 2px #fff, 0px 0px 0px 1px #606054, 0px -1px 9px 1px rgba(119, 119, 119, 0.4);
+}
+
+.table_summary_row {
+  background-color: #c7effe;
+  font-weight: 700;
+}
+
+.total_summary, .total_summary > h3 {
+  background-color: #c7effe;
+}
+
+.total_summary tbody > tr > td, .total_summary > h3 tbody > tr > td {
+  font-size: 1.5rem;
+}
+/*# sourceMappingURL=main.css.map */

@@ -1,0 +1,185 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Montserrat, sans-serif;
+}
+
+a {
+	color: #7c9ab7;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+h2, h3 {
+	text-align: center;
+	font-weight: 700;
+}
+
+// h2 {
+// 	color: #b7625c;
+// }
+
+h4 {
+	height: 50px;
+	font-weight: 700;
+}
+
+form {
+	box-shadow:
+    0px 0px 0px 2px #fff,
+    0px 0px 0px 1px #606054,
+		0px -1px 9px 1px rgba(119, 119, 119, 0.4);
+		margin: 20px 0;
+		padding: 10px;
+
+	input {
+		width: 100%;
+		margin: 10px 0;
+		border: unset;
+		border-bottom: 2px solid #e3e3e3;
+		outline: none;
+	}
+	
+	button {
+		width: 100%;
+		padding: 10px;
+		margin: 10px 0;
+		font-size: 16px;
+		background: #e3e3e3;
+		border: unset;
+		cursor: pointer;
+	}
+}
+
+.btn_wrap {
+	display: flex;
+	justify-content: space-between;
+	// column-gap: 10px;
+	.half_width {
+		width: calc(50% - 10px);
+	}
+}
+
+
+.content_wrap {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+}
+
+.user_header {
+	background-color: #ebebeb;
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
+
+	img {
+		width: 100px;
+	}
+}
+
+.user_header__wrap {
+margin-left: 10px;
+
+	p {
+		color: #7c9ab7;
+	}
+}
+
+.sign {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	form {
+		width: 350px;
+	}
+}
+
+.register {
+	height: 100vh;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+
+	form {
+		width: 350px;
+	}
+}
+
+.admin_check, .admin_data_add {
+	box-shadow:
+    0px 0px 0px 2px #fff,
+    0px 0px 0px 1px #606054,
+		0px -1px 9px 1px rgba(119, 119, 119, 0.4);
+	margin: 20px 0;
+}
+
+.msg {
+	border: 2px solid #ffa908;
+	border-radius: 3px;
+	padding: 10px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.logout {
+	color: #b7625c;
+}
+
+.hidden {
+	display: none;
+}
+
+textarea {
+	width: 100%;
+}
+
+.table_check_data, .table_added_data {
+	width: 100%;
+	tbody {
+		tr {
+			width: 100%;
+			td {
+				width: 16%;
+			}
+		}
+	}
+}
+
+.table_statistics {
+	padding: 10px;
+}
+
+.table_check_data_wrap {
+	box-shadow:
+    0px 0px 0px 2px #fff,
+    0px 0px 0px 1px #606054,
+		0px -1px 9px 1px rgba(119, 119, 119, 0.4);
+}
+
+.table_summary_row {
+	background-color: #c7effe;
+	font-weight: 700;
+}
+
+.total_summary, .total_summary>h3 {
+	background-color: #c7effe;
+	tbody>tr>td {
+		font-size: 1.5rem;
+	}
+}
+
+// .added_data_block div:nth-child(2) form {
+// 	min-height: 100%;
+// }

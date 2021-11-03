@@ -1,0 +1,20 @@
+.accordion-menu ul { list-style: none; }
+
+.menu {
+	position: relative;
+}
+
+.accordion-menu .menu i.fa {
+	position: absolute;
+	right: 5px;
+	top: 5px;
+	font-size: 22px;
+	float: right;
+	margin-left: 10px;
+}
+
+.menu .li a {
+	text-decoration: none;
+	color: #000;
+	background-color: transparent;
+}
